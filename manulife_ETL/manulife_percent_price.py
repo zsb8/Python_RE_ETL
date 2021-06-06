@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 """
+@author: Songbin.Zhang
 This program is used to import allocation_class info and daily data to database.
 allocation_class info include four blocks:
  (1)Asset_Allocation; (2)Geographic_Allocation;(3)Sector_Allocation;(4)'Underlying Fund Holdings' or 'Top 10 Holdings'.
