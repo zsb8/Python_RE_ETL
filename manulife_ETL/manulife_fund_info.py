@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 """
+@author: Songbin.Zhang
 This program is used to get info from the HTML file in your local hard disk
 (1) Import data into fund table.
 (2) Import data into fund_code table.
