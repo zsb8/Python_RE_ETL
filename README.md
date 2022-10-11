@@ -1,3 +1,3 @@
 # RE_ETL
 Use Match Regular Expressions to ETL.
-Use Manulife funds info as a sample.
+This is a sample code which ETL funds data from Manulife.
