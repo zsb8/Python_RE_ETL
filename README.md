@@ -2,7 +2,7 @@
 Use Match Regular Expressions to ETL.
 This is a sample code which ETL funds data from Manulife.
 
-~~~
+~~~python
     MANULIFE_GET_EFFECTIVE_PATTERN = r'<h1 id="allocation-heading" class="section-title">\n\s+Portfolio Allocation\n\s+' \
                                      r'<span class="title-note">as of\s(?P<effective_date>.+?)</span>'
     MANULIFE_PERFORMANCE_PATTERN = r'<p class="not-enough-data">Performance cannot be shown'
@@ -13,7 +13,7 @@ This is a sample code which ETL funds data from Manulife.
 ~~~
 
 in manulife_price.py
-~~~
+~~~pyton
     def code_portfolio_df(self, block_type):
         """
         Step 1 - 2:
